@@ -236,7 +236,6 @@ class CDTrainer():
                               str(self.epoch_id)+'_'+str(self.batch_id)+'.jpg')
             plt.imsave(file_name, vis)
         
-
     def _collect_epoch_states(self):
         scores = self.running_metric.get_scores()
         self.epoch_acc = scores['mf1']
