@@ -176,7 +176,6 @@ def get_confuse_matrix(num_classes, label_gts, label_preds):
         confusion_matrix += __fast_hist(lt.flatten(), lp.flatten())
     return confusion_matrix
 
-
 def get_mIoU(num_classes, label_gts, label_preds):
     confusion_matrix = get_confuse_matrix(num_classes, label_gts, label_preds)
     score_dict = cm2score(confusion_matrix)
