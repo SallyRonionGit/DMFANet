@@ -141,16 +141,11 @@ class CDDataset(ImageDataset):
 
         #with open('LEVIR.txt', 'a') as file: 
         with open('DSIFN.txt', 'a') as file: 
-            # 写入原始图像的尺寸和唯一值  
             file.write(f"L_path : {L_path}\n")  
             label = np.array(Image.open(L_path), dtype=np.uint8)  
             file.write(f"label shape RGB {label.shape} {np.unique(label)}\n")  
-            
-            # 写入取第一个通道后的尺寸和唯一值  
             # label = np.array(Image.open(L_path), dtype=np.uint8)[:,:,0]  
             # file.write(f"label shape RGB [:,:,0] {label.shape} {np.unique(label)}\n")  
-            
-            # 转换为灰度图后写入尺寸和唯一值  
             label = np.array(Image.open(L_path).convert('L'), dtype=np.uint8)  
             file.write(f"label shape gray {label.shape} {np.unique(label)}\n") 
 
