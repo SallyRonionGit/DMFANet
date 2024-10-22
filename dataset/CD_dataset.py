@@ -117,7 +117,6 @@ class CDDataset(ImageDataset):
         img = np.asarray(Image.open(A_path).convert('RGB'))
         img_B = np.asarray(Image.open(B_path).convert('RGB'))
         L_path = get_label_path(self.root_dir, self.img_name_list[index % self.A_size])
-        # 应该是这个地方的问题，可能是黑白彩色图和黑白灰度图的区别的原因
         
         # dtype=np.uint8 0-255 (keep the origial values)
 
@@ -127,9 +126,7 @@ class CDDataset(ImageDataset):
 
 
         # png and tif is Lossyless Compression jpg is Lossy Compression
-        # 2570.png 出现了156?
-        # 问题应该是出在我自己写的那个画结果的地方
-        # 因为训练阶段的输出结果是正常的
+
 
         # print("L_path :", L_path)
         label = np.array(Image.open(L_path), dtype=np.uint8)
