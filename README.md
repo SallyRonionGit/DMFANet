@@ -4,6 +4,6 @@
 [WHU-CD](https://github.com/AndreaCodegoni/Tiny_model_4_CD) 
 [SYSU-CD](https://github.com/liumency/SYSU-CD)
 ## Checkpoints
-baidu：https://pan.baidu.com/s/1YvAISggtpsVcoRBrg1eMCA 
-code：qxk1 
+link: https://pan.baidu.com/s/1AqadPgcRF9cPc0fnzOYJVw code: t442 
+
 
