@@ -4,7 +4,7 @@ Difference-Aware Multiscale Feature Aggregation Network for Building Change Dete
 on 2025 IEEE Transactions on Geoscience and Remote Sensing.
 
 # Network
-
+![image](https://github.com/user-attachments/assets/bb2cd160-19ca-416d-8190-c377015c47e5)
 
 ## Datasets
 [LEVIR-CD](https://justchenhao.github.io/LEVIR/)  
