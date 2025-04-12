@@ -12,6 +12,6 @@ on 2025 IEEE Transactions on Geoscience and Remote Sensing.
 [SYSU-CD](https://github.com/liumency/SYSU-CD) 
 
 ## Checkpoints
-link: https://pan.baidu.com/s/1AqadPgcRF9cPc0fnzOYJVw code: t442 
+link: [https://pan.baidu.com/s/1AqadPgcRF9cPc0fnzOYJVw](https://pan.baidu.com/s/1rzbfzCQSz87v8WTB2qtHsQ) code: pmcb 
 
 
